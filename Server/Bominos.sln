@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{56FB9929-FFC2-4FAF-9A8E-0F73194C263B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bominos", "src\Bominos\Bominos.csproj", "{74429151-B797-489A-B5AE-4610BAFD5F00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bominos.Identity", "src\Bominos.Identity\Bominos.Identity.csproj", "{72ED5BE7-9E40-4575-8D0F-C133A0F23F22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3E4CCF9-AA79-479A-9808-D12C53BDB440}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bominos.Watchdog", "src\Bominos.Watchdog\Bominos.Watchdog.csproj", "{EE4E17AF-A428-4B28-B38B-B1466035CFF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bominos.Orders", "src\Bominos.Orders\Bominos.Orders.csproj", "{578A2624-5B27-46F7-94C8-5D86A3431415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bominos.Notifications", "src\Bominos.Notifications\Bominos.Notifications.csproj", "{BF651894-8688-4F15-9826-5606C9F7C21C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74429151-B797-489A-B5AE-4610BAFD5F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74429151-B797-489A-B5AE-4610BAFD5F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74429151-B797-489A-B5AE-4610BAFD5F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74429151-B797-489A-B5AE-4610BAFD5F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72ED5BE7-9E40-4575-8D0F-C133A0F23F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72ED5BE7-9E40-4575-8D0F-C133A0F23F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72ED5BE7-9E40-4575-8D0F-C133A0F23F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72ED5BE7-9E40-4575-8D0F-C133A0F23F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4E17AF-A428-4B28-B38B-B1466035CFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4E17AF-A428-4B28-B38B-B1466035CFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4E17AF-A428-4B28-B38B-B1466035CFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4E17AF-A428-4B28-B38B-B1466035CFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578A2624-5B27-46F7-94C8-5D86A3431415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578A2624-5B27-46F7-94C8-5D86A3431415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578A2624-5B27-46F7-94C8-5D86A3431415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578A2624-5B27-46F7-94C8-5D86A3431415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF651894-8688-4F15-9826-5606C9F7C21C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF651894-8688-4F15-9826-5606C9F7C21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF651894-8688-4F15-9826-5606C9F7C21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF651894-8688-4F15-9826-5606C9F7C21C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74429151-B797-489A-B5AE-4610BAFD5F00} = {56FB9929-FFC2-4FAF-9A8E-0F73194C263B}
+		{72ED5BE7-9E40-4575-8D0F-C133A0F23F22} = {56FB9929-FFC2-4FAF-9A8E-0F73194C263B}
+		{EE4E17AF-A428-4B28-B38B-B1466035CFF9} = {56FB9929-FFC2-4FAF-9A8E-0F73194C263B}
+		{578A2624-5B27-46F7-94C8-5D86A3431415} = {56FB9929-FFC2-4FAF-9A8E-0F73194C263B}
+		{BF651894-8688-4F15-9826-5606C9F7C21C} = {56FB9929-FFC2-4FAF-9A8E-0F73194C263B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D6D4B30-FD2C-48AE-B1C9-1194D29FE8EF}
+	EndGlobalSection
+EndGlobal
