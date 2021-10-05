@@ -1,7 +1,7 @@
 # DoReMiFaSolLaSiDos, nah I choose Bominos
 ### Sections
 * Admin
-  * Add "Cooker" role to user (can hire as cooker)
+  * Add "Cooker" role to user (can hire cooker)
   * Remove "Cooker" role from user (can fire cooker)
 * Feedback (db)
   * Add feedback to product
